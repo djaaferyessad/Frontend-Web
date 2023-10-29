@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+<title>INSCRIPRTION</title>
+</head>
+<body bgcolor="cyan" >
+<h2>Inscription en formtaion</h2>
+<form name="formulaire" onsubmit="return Validation()" > // envoi
+<table bgcolor="#F3F781">
+<tr>
+    <td>Nom et Prénom</td>
+    <td ><input type="text" name="nomE"></td>
+</tr>
+<tr>
+    <td><b>Sexe</b></td>
+    <td>Homme :
+    <input type="radio" name="Sexe" id="Homme" checked><br>
+     Femme :
+    <input type="radio" name="Sexe" id="femmes">
+    </td>
+</tr>
+<tr>
+    <td><b>Age</b></td>
+    <td><input type="number" name="Age" value="20"></td>
+</tr>
+<tr>
+    <td><b>Address</b></td>
+    <td><textarea cols="20" rows="5" name="adress"></textarea></td>
+</tr>
+<tr>
+    <td><b>Wilaya</b></td>
+    <td>
+        <select name="wilaya">
+        <option value="19" >Setif</option>
+        <option value="01">Adrar</option>
+        <option value="5">Batna</option>
+        <option value="15">Tizi wazo</option>
+        <option value="06">Bejia</option>
+        <option value="16">Alger</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td><b>Photos</b></td>
+    <td><input type="file" name="file" id="photo"></td>
+</tr>
+<tr>
+    <td><b>Activité Sportives</b></td>
+    <td>
+        
+        <input type="checkbox" name="Activité-Sportives" id="Football" checked> Football <br>
+        <input type="checkbox" name="Activité-Sportives" id="Handball"> Handball <br>
+        <input type="checkbox" name="Activité-Sportives" id="Basketball"> Basketball <br>
+        <input type="checkbox" name="Activité-Sportives" id="Autre" > Autre <br>
+    </td>
+</tr>
+<tr>
+    <td><b>Code Secret</b></td>
+    <td><input type="password" name="password1"></td>
+</tr>
+<tr>
+    <td><b>Confirmer le code secret </b></td>
+    <td><input type="password" name="password2"></td>
+</tr>
+<tr>
+    <td><b>Année d'etude</b></td>
+    <td>
+        <label > 2 éme Année :</label>
+        <input type="radio" name="Annee" id="2 éme" checked><br>
+        <label >3 éme Année : </label>
+        <input type="radio" name="Annee" id="3 éme"> <br>
+    </td>
+</tr>
+<tr>
+    <td><b>Effacer les inforamtion</b></td>
+    <td><input type="reset" name="effacer" value="Effacer"></td>
+</tr>
+<tr>
+    <td>Envoyer les inforamtion</td>
+    <td><input type="submit" value="Envoi"></td>
+</tr>
+</table>
+</body>
+
+</html>
